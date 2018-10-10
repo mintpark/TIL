@@ -13,3 +13,6 @@ createSelector 이 한 줄을 써주는 것만으로 변경사항만 렌더할 �
 
 context
 보통 앱 최상단에 Provider를 선언하면 하위 Container들은 다 store를 구독하는 것 같다.
+
+component key
+react의 모든 component는 key를 필요로 하는데, 그 이유는 key로 렌더 여부를 판단하기 때문이다. 보통 component를 생성하면 key는 자동으로 생성되지만, array에 element를 추가하는 경우에는 개발자가 key를 명시적으로 추가해야 한다. 이 때, idx를 key로 삼는 것은 지양해야 하는데, array를 갱신할 때 key가 꼬일 수 있기 때문이다.
