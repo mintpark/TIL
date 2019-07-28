@@ -18,6 +18,3 @@ $ cat id_rsa
 # 결과물을 복사해서 'Allow write access'에 체크한 뒤 키를 추가하면 된다.
 # key를 다른 이름으로 생성했더라도, repository에 추가할 때는 id_rsa라는 prefix로 추가해줘야 한다.
 ```
-
-333
-333
