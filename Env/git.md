@@ -18,3 +18,6 @@ $ cat id_rsa
 # 결과물을 복사해서 'Allow write access'에 체크한 뒤 키를 추가하면 된다.
 # key를 다른 이름으로 생성했더라도, repository에 추가할 때는 id_rsa라는 prefix로 추가해줘야 한다.
 ```
+### git tag
+특정 commit을 기억하고 싶을 때(릴리즈 버전 기록, 코드 복구...) 사용.
+태그는 따로 푸시해야 리모트에 저장된다 : git push --tags 
